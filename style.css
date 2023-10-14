@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --BGColor: #00d8da;
+    --asciiColor: #c2eb82;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--BGColor);
+}
+
+.asciiContainerStyle {
+    background-color: var(--asciiColor);
+    white-space: pre;
+    height: 100%;
+}
+
+.cell {
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+}
